@@ -1,0 +1,78 @@
+\documentclass{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{eumat}
+\usepackage[Conny]{fncychap}
+\usepackage[bahasa]{babel}
+
+% Rename Contents
+\addto\captionsenglish{\renewcommand{\contentsname}{\vspace{-0.5cm} \textbf{\large Daftar Isi} \vspace{-2cm}}}
+
+\begin{document}
+
+% Cover Page
+\begin{titlepage}
+    \begin{center}
+        \vspace*{0,2cm}
+
+        \Large
+        \textbf{\huge APLIKASI KOMPUTER}
+        
+        \vspace{1cm}
+        
+        \LARGE
+        BAB LaTeX dan Markdown  
+        
+        \vspace{1cm}
+        
+        \includegraphics[width=0.5\textwidth]{Logo UNY.png}
+
+        \vspace{1cm}
+        
+        \textbf{Zainal Arrasyid Dalimunte}\\
+        22305144006\\
+        Matematika B 2022
+        
+        \vspace{2cm}
+        
+        \Large
+        \textbf{PRODI MATEMATIKA}\\
+        \textbf{DEPARTEMEN PENDIDIKAN MATEMATIKA}\\
+        \textbf{FAKULTAS MATEMATIKA DAN ILMU PENGETAHUAN ALAM}
+        \textbf{UNIVERSITAS NEGERI YOGYAKARTA}\\
+        \textbf{2023}
+        
+    \end{center}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+
+\chapter{\Large Belajar Menggunakan Software EMT}
+\input{EMT00-FisrtSteps}
+
+\newpage
+\chapter{\Large Menggunakan EMT untuk menyelesaikan masalah-masalah Aljabar}
+\input{22305144006-EMT4aljabar}
+
+\newpage
+\chapter{\Large Menggunakan EMT untuk mengambar grafik 2 dimensi (2D)}
+\input{22305144006-EMT4Plot2D}
+
+\newpage
+\chapter{\Large Menggunakan EMT untuk mengambar grafik 3 dimensi (3D)}
+\input{22305144006_EMT4Plot3D}
+
+\newpage
+\chapter{\Large Menggunakan EMT untuk kalkulus}
+\input{22305144006_EMT4Kalkulus}
+
+\newpage
+\chapter{\Large Menggunakan EMT untuk Geometri}
+\input{22305144006_Zainal_EMT4Geometri}
+
+\newpage
+\chapter{\Large Menggunakan EMT untuk Statistika}
+\input{22305144006_EMT4Statistika}
+
+\end{document}
